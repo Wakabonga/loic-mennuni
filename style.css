@@ -4,9 +4,9 @@ html
   background-attachment: fixed;
 }
 
-nav
+.navigation
 {
-  text-align : center;
   display : flex;
+  flex-direction : row;
 }
   
