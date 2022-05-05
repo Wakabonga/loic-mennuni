@@ -1,4 +1,12 @@
 html
 {
-  background-image: url("https://raw.githubusercontent.com/Wakabonga/loic-mennuni/main/fondsite.jpg")
+  background-image: url("https://raw.githubusercontent.com/Wakabonga/loic-mennuni/main/fondsite.jpg");
+  background-attachment: fixed;
 }
+
+nav
+{
+  text-align : center;
+  display : flex;
+}
+  
