@@ -4,13 +4,32 @@ html
   background-attachment: fixed;
 }
 
-#navigation
-{
-  display: flex;
-  flex-direction: row;
+nav {
+    position: fixed;
+    color: #FFB8B8;
+    z-index: 9999;
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
 }
-  
-#about
-{
-  background-color: white;
+
+nav ul {
+    width: 1200px;
+    text-align: right;
+    margin: auto;
+}
+
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+nav li a {
+    color: #FFB8B8 !important;
+    text-decoration: none !important;
 }
