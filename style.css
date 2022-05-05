@@ -1,16 +1,16 @@
 html
 {
-  background-image: url("https://raw.githubusercontent.com/Wakabonga/loic-mennuni/main/fondsite.jpg");
+  background-color: #a5c5df;
   background-attachment: fixed;
 }
 
 /* NAVIGATION */
 
 nav {
-  color: rgb(243,165,148);
+  color: #31383F;
   font-weight: bold;
   text-align: right;
-  background-color: rgba(116,115,111,0.6);
+  background-color: rgba(147,118,123,0.4);
   height: 50px;
 }
 
@@ -28,11 +28,28 @@ margin-right: 25px;
 
 /* FIN NAVIGATION */
 
+/* TITRE */
+
+#jmapl {
+  font-size: 45px;
+  margin-bottom: -20px;
+}
+
+#recherche {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+header {
+  text-align: center;
+}
+/* FIN TITRE */
+
 /*A PROPOS */
 
 #about {
   background-color: white;
-  padding-bottom: 25px
+  padding-bottom: 25px;
 }
 
 #photo {
@@ -60,15 +77,19 @@ text-align: center;
 }
 
 #contact {
-  background-color:crimson;
+  background-color:#DD8EA4;
   padding:15px;
   border-radius: 25px;
+  padding-left:30px;
+  padding-right:30px;
 }
 
 #dlcv {
-  background-color:darkgreen;
+  background-color: #DD8EA4;
   padding:15px;
   border-radius: 25px;
+  padding-left:30px;
+  padding-right:30px;
 }
 
 /*FIN A PROPOS */
