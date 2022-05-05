@@ -1,0 +1,95 @@
+html
+{
+  background-color: #a5c5df;
+  background-attachment: fixed;
+}
+
+/* NAVIGATION */
+
+nav {
+  color: #31383F;
+  font-weight: bold;
+  text-align: right;
+  background-color: rgba(147,118,123,0.4);
+  height: 50px;
+}
+
+#navul {
+margin-right: 25px;
+}
+
+#navul #navli {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-left: 35px;
+  padding-top: 15px;
+
+}
+
+/* FIN NAVIGATION */
+
+/* TITRE */
+
+#jmapl {
+  font-size: 45px;
+  margin-bottom: -20px;
+}
+
+#recherche {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+header {
+  text-align: center;
+}
+/* FIN TITRE */
+
+/*A PROPOS */
+
+#about {
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+#photo {
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+#ttapropos {
+  padding-left: 250px;
+  padding-top: 25px;
+}
+
+#apropos {
+  padding-left: 250px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+#info {
+  padding-left: 25px;
+}
+
+#bouton {
+text-align: center;
+}
+
+#contact {
+  background-color:#DD8EA4;
+  padding:15px;
+  border-radius: 25px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+#dlcv {
+  background-color: #DD8EA4;
+  padding:15px;
+  border-radius: 25px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+/*FIN A PROPOS */
