@@ -10,3 +10,7 @@ html
   flex-direction: row;
 }
   
+#about
+{
+  background-color: white;
+}
