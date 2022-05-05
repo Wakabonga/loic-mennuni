@@ -4,8 +4,8 @@ html
   background-attachment: fixed;
 }
 
-#navigation
-{
-  display : flex;
-  flex-direction : row;
+nav {
+  position: fixed;
+  font-color: rgb(243,165,148);
+  color: rgb(243,165,148);
 }
