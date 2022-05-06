@@ -1,0 +1,120 @@
+html
+{
+  background-image: url("https://i.imgur.com/tTwZKsj.jpeg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* NAVIGATION */ 
+
+nav {
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  background-color: rgba(147,118,123,0.4);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin-left: -20px;
+  padding-right: 20px;
+}
+
+#navul {
+  margin: auto;
+  width: auto;
+  padding-right: 60px;
+}
+
+#navul #navli {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+/* FIN NAVIGATION */
+
+/* TITRE */
+
+header {
+  height: 75vh;
+}
+
+#jmapl {
+  font-size: 90px;
+  margin-bottom: -20px;
+  background-color:rgba(147,118,123,0.8);
+  color: white;
+  margin-top: 15%;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+#recherche {
+  font-size: 50px;
+  margin-top:20px;
+  padding-bottom: 30px;
+  background-color:rgba(147,118,123,0.8);
+  color: white;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+header {
+  text-align: center;
+}
+/* FIN TITRE */
+
+/*A PROPOS */
+
+#about {
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+#photo {
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+#ttapropos {
+  padding-left: 250px;
+  padding-top: 25px;
+}
+
+#apropos {
+  padding-left: 250px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+#info {
+  padding-left: 25px;
+}
+
+#bouton {
+text-align: center;
+}
+
+#contact {
+  background-color:#DD8EA4;
+  padding:15px;
+  border-radius: 25px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+#dlcv {
+  background-color: #DD8EA4;
+  padding:15px;
+  border-radius: 25px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+/*FIN A PROPOS */
